@@ -13,7 +13,7 @@ export const NavBar = () => {
 
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1Bz0DWi54gtlm0csPD9XjTR0jQN4s-Coz/view?usp=sharing",
+      "https://drive.google.com/file/d/1RKDLzAVy2CGrasDwSJIDtD1tpIt-J2BI/view?usp=sharing",
       "_blank"
     );
   };
@@ -95,7 +95,7 @@ export const NavBar = () => {
                 </button>
               </HashLink>
               <button className="vvd cvbutton " onClick={handleDownload}>
-                <span>Download cv</span>
+                <span>Resume</span>
               </button>
             </span>
           </Navbar.Collapse>
